@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse.navbar-nav>.active>a:focus, .navbar-inverse.navbar-nav>.active>a:hover {
   background-color: rbga(51, 51, 51, .5);
@@ -85,4 +85,37 @@ button.btn-warning:hover {
 
 .mainsection {
   margin: 10% auto;
+}
+
+.reviewsection {
+  height: 600px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fresnobee {
+  height: 300px;
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 5px;
+}
+
+.fresnobee h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px 2px #333;
+  color: #F8512F;
+  font-size: 4em;
+}
+
+.fresnobee p {
+  font-size: 2em;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.row.reviewsection .flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
