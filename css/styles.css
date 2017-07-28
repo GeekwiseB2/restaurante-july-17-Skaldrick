@@ -119,3 +119,47 @@ button.btn-warning:hover {
   display: flex;
   align-items: center;
 }
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  height: 700px;
+}
+
+.menusection {
+  padding-top: 30px;
+  height: 750px;
+}
+
+.menusection ul li {
+}
+
+.menusection ul li a {
+  text-transform: uppercase;
+  color: #F8512F;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.menusection ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: transparent;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color: #F8512F;
+  border: 2px solid;
+}
+
+
+
+.food {
+  background-color: #fff;
+  height: 485px;
+  overflow: auto;
+  padding: 8px 19px;
+}
+.menusection h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 65px;
+}
