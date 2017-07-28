@@ -163,3 +163,25 @@ button.btn-warning:hover {
   color: #fff;
   font-size: 65px;
 }
+
+.contact-section {
+  background-color: #F8512F;
+  height: 700px;
+  padding-top: 40px;
+}
+
+.contact-section h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 600;
+}
+.contact-section p {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.contact-section form {
+  border: 1px solid #fff;
+  color: white;
+  padding: 15px 10px;
+}
